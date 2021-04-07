@@ -30,7 +30,7 @@ public class PasswordController {
     @Autowired
     private PasswordService passwordService;
 
-    @PostMapping("/verify")
+    @PostMapping(value = "/verify", produces = "text/plain;charset=UTF-8")
     @ResponseBody
     @ApiOperation(value = "Verifica se a senha enviada atende aos requisitos mínimos de segurança")
     public ResponseEntity create(
