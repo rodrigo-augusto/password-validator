@@ -19,7 +19,7 @@ import java.net.HttpURLConnection;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @Controller
 @RequestMapping("/password")
-@Api(value = "Senhas")
+@Api(tags = "Senhas")
 @ApiResponses(value = {
     @ApiResponse(
         code = HttpURLConnection.HTTP_CONFLICT,
