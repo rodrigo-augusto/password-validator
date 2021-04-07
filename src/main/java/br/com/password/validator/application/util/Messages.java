@@ -1,4 +1,4 @@
-package br.com.password.validator.application.component;
+package br.com.password.validator.application.util;
 
 import br.com.password.validator.application.business.EMsg;
 import org.springframework.beans.factory.annotation.Autowired;
