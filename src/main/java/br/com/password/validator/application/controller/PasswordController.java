@@ -40,9 +40,7 @@ public class PasswordController {
 
         try {
             passwordService.verifyPassword(dto.getPassword());
-            return ResponseEntity
-                    .ok()
-                    .build();
+            return ResponseEntity.ok(Boolean.TRUE.toString());
         } catch (BusinessException ex) {
             return ResponseEntity
                     .status(HttpStatus.CONFLICT)
