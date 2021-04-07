@@ -88,6 +88,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
         })
         .addPathPatterns("/**")
         .excludePathPatterns(
+            "/",
             "/v2/api-docs",
             "/swagger-resources/**",
             "/swagger-ui.html",
