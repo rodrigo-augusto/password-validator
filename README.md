@@ -3,7 +3,7 @@ Repositório com micro serviço java + spring boot para validação de senhas.
 
 ### Como usar?
 1. Basta realizar o download do codigo (seja através de um checkout ou baixando o .zip do repositorio)
-2. Importe o projeto baixado (caso tenha baixado um .zip, descompacte-o antes em alguma pasta de sua escolha) de **preferencia** através da IDE IntelliJ versao igual ou superiror à 2019.1.4 x64
+2. Importe o projeto baixado (caso tenha baixado um .zip, descompacte-o antes em alguma pasta de sua escolha) de **preferencia** através da IDE IntelliJ versao igual ou superiror à **2019.1.4 x64**
 3. Após a IDE baixar todas as dependencias, basta rodar localmente com o comando ":bootRun" (No caso de usar a IDE IntelliJ, basta dar um clique duplo no comando "Tasks -> application -> bootRun" dentro da aba "Gradle")
 
 #### Informações adicionais:
